@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	display:grid;
+	background-color:black;
+	padding:2px;
+	grid-template-columns: repeat(40,auto);
+	
+}
+.square{
+	background-color:grey;
+	display:inline;
+	margin:2px;
+	transition-delay:1s;
+}
+.square:hover{
+	 background-color:red; 
+  transition-delay:0s;
+}
